@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rotated Object Detection | Steven Lang</title>
+    <link>/tag/rotated-object-detection/</link>
+      <atom:link href="/tag/rotated-object-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rotated Object Detection</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Rotated Object Detection</title>
+      <link>/tag/rotated-object-detection/</link>
+    </image>
+    
+    <item>
+      <title>Oriented Object Detection using a One-Stage Anchor-Free Deep Model</title>
+      <link>/project/master-thesis/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      <guid>/project/master-thesis/</guid>
+      <description>&lt;p&gt;Master Thesis at the TU Darmstadt in the AIML Lab supervised by &lt;a href=&#34;https://ml-research.github.io/people/kkersting/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Kristian Kersting&lt;/a&gt; and &lt;a href=&#34;https://www.ml.informatik.tu-darmstadt.de/people/fventola/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fabrizio Ventola&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Object detection is a fundamental task in computer vision. While substantial
+progress in the field of axis-aligned bounding-box detection has been made, it
+suffers from poor performance on oriented objects, resulting in large parts of
+the bounding box covering non-object related area. Therefore, the recent field
+of oriented object detection has emerged, generalizing object detection to
+arbitrary orientations which are commonly found in e.g. aerial view imagery or
+security camera footage. This enables a tighter fit of bounding boxes, leading
+to a better separation of bounding boxes especially in cases of dense object
+distributions. In this work we present DAFNe: a Dense one-stage
+Anchor-Free deep Network for oriented object detection. As one-stage model,
+DAFNe performs predictions on a dense grid over the input image, being
+architecturally simpler in design, as well as easier to optimize than their
+two-stage alternatives. Being an anchor-free model, DAFNe additionally
+reduces the prediction complexity by refraining from bounding box anchors
+which come with many burdens: anchor specifications need more attentive
+hyper-parameter fine-tuning on a per-dataset basis, increased model size and
+computational overhead. Moreover, we introduce a novel vectorized corner
+sorting algorithm to efficiently represent bounding boxes with a canonical
+corner ordering batch-wise, an orientation-aware center-ness formulation for
+arbitrary oriented bounding boxes to down-weight low-quality predictions, and
+a center-to-corner bounding-box prediction strategy that improves object
+localization performance. Our experiments show that DAFNe outperforms
+all previous one-stage anchor-free models on DOTA 1.0, to the best of our
+knowledge. DAFNe improves the prediction accuracy over the previous
+best results by 4.65% mAP, setting the new state-of-the-art results by
+achieving 76.95% mAP.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

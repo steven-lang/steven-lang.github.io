@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Steven Lang</title>
+    <link>/tag/computer-vision/</link>
+      <atom:link href="/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Computer Vision</title>
+      <link>/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Oriented Object Detection using a One-Stage Anchor-Free Deep Model</title>
+      <link>/project/master-thesis/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      <guid>/project/master-thesis/</guid>
+      <description>&lt;p&gt;Master Thesis at the TU Darmstadt in the AIML Lab supervised by &lt;a href=&#34;https://ml-research.github.io/people/kkersting/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Kristian Kersting&lt;/a&gt; and &lt;a href=&#34;https://www.ml.informatik.tu-darmstadt.de/people/fventola/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fabrizio Ventola&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Object detection is a fundamental task in computer vision. While substantial
+progress in the field of axis-aligned bounding-box detection has been made, it
+suffers from poor performance on oriented objects, resulting in large parts of
+the bounding box covering non-object related area. Therefore, the recent field
+of oriented object detection has emerged, generalizing object detection to
+arbitrary orientations which are commonly found in e.g. aerial view imagery or
+security camera footage. This enables a tighter fit of bounding boxes, leading
+to a better separation of bounding boxes especially in cases of dense object
+distributions. In this work we present DAFNe: a Dense one-stage
+Anchor-Free deep Network for oriented object detection. As one-stage model,
+DAFNe performs predictions on a dense grid over the input image, being
+architecturally simpler in design, as well as easier to optimize than their
+two-stage alternatives. Being an anchor-free model, DAFNe additionally
+reduces the prediction complexity by refraining from bounding box anchors
+which come with many burdens: anchor specifications need more attentive
+hyper-parameter fine-tuning on a per-dataset basis, increased model size and
+computational overhead. Moreover, we introduce a novel vectorized corner
+sorting algorithm to efficiently represent bounding boxes with a canonical
+corner ordering batch-wise, an orientation-aware center-ness formulation for
+arbitrary oriented bounding boxes to down-weight low-quality predictions, and
+a center-to-corner bounding-box prediction strategy that improves object
+localization performance. Our experiments show that DAFNe outperforms
+all previous one-stage anchor-free models on DOTA 1.0, to the best of our
+knowledge. DAFNe improves the prediction accuracy over the previous
+best results by 4.65% mAP, setting the new state-of-the-art results by
+achieving 76.95% mAP.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Monocular Depth Estimation using Atrous Convolutions</title>
+      <link>/project/monodepth/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/project/monodepth/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Monocular depth estimation is concerned with computing a dense depth map from a single image, but faces difficulties especially at object boundaries. Atrous convolutions have been successfully employed to this end in the task of semantic segmentation. In this paper we investigate, whether it is also possible to apply atrous convolutions in unsupervised monocular depth estimation. Specifically, we place an Atrous Spatial Pyramid Pooling block in a convolutional neural network between the encoder and decoder. This block allows for computing feature maps at different spatial scales on top of the encoder output. Our experiments show that atrous convolutions in the proposed setup do not improve depth estimation performance. Furthermore, the necessity of a lower output stride after the encoder, such that an increased receptive field size is even applicable, harms runtime and increases memory consumption. Finally, we show that it is possible to reduce the number of channels after the encoder, which reduces the parameter count without impairing predictions.&lt;/p&gt;
+&lt;p&gt;Project on &lt;em&gt;Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em&gt; in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Feature Interpolation</title>
+      <link>/project/deep-feature-interpolation/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/project/deep-feature-interpolation/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Implementation of the Deep Feature Interpolation for Image Content Changes &lt;a href=&#34;https://arxiv.org/abs/1611.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; in tensorflow.&lt;/p&gt;
+&lt;p&gt;The goal is to add a specific target feature to the face of a person. This may be a Mustache or a smiling mouth. The procedure starts with taking &lt;code&gt;k&lt;/code&gt; images of people with the feature and &lt;code&gt;k&lt;/code&gt; images of people without the feature. These sets (positive/negative) are the input to an - on IMAGENET pretrained - VGG19 network. The output of each image is then fetched at the Relu layers of the third, fourth and fifth convolutional block. This builds a deep feature representation of an image. The deep feature vector of the target feature is then calculated by taking the difference of the mean of the positive and the negative set. To add the target feature to a new image, the target feature vector in the deep feature space will be added to the deep feature representation of this image. The image will then be restored by reverse mapping the deep feature values into the original pixel space, using an optimizer of your choice and the following loss function:&lt;/p&gt;
+&lt;p&gt;$$
+z = argmin_z \frac{1}{2}||\left(\phi\left(x\right) + \alpha w\right) - \phi \left( z \right)||_2^2 + \lambda_{V^\beta} R_{V^\beta}\left(z\right)
+$$
+$$
+R_{V^\beta}\left(z\right) = \sum_{i,j}\left( \left(z_{i,j+1} - z_{i,j}\right)^2   + \left(z_{i+1,j} - z_{i,j}\right)^2 \right)
+$$&lt;/p&gt;
+&lt;p&gt;Where $z$ is the new image, $x$ is the input image, $\phi$ is the mapping into deep feature space, $\alpha$ is a scalar and $w$ is the deep feature vector of the target feature.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
