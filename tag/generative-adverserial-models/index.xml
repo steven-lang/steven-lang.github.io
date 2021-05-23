@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Generative Adverserial Models | Steven Lang</title><link>/tag/generative-adverserial-models/</link><atom:link href="/tag/generative-adverserial-models/index.xml" rel="self" type="application/rss+xml"/><description>Generative Adverserial Models</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Generative Adverserial Models</title><link>/tag/generative-adverserial-models/</link></image><item><title>GAN based Food Interpolation</title><link>/project/food-interpolator/</link><pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate><guid>/project/food-interpolator/</guid><description>&lt;p>Deep Generative Models Course Project at TU Darmstadt.&lt;/p>
+&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>The main goal of this project is to learn a conditional GAN that can interpolate between different types of food.
+We want to achieve fluid transitions between e.g.:&lt;/p>
+&lt;ul>
+&lt;li>Burger &amp;lt;-&amp;gt; Pizza&lt;/li>
+&lt;/ul>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;ul>
+&lt;li>Scraped from google with &lt;a href="https://github.com/hardikvasa/google-images-download" target="_blank" rel="noopener">google-images-download&lt;/a>&lt;/li>
+&lt;li>Partly from &lt;a href="http://pizzagan.csail.mit.edu/" target="_blank" rel="noopener">PizzaGAN&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>Video results can be found &lt;a href="https://www.youtube.com/watch?v=LndGGbR4uxY&amp;amp;list=PLVCWvLHvDaenJrE2N-Akwo7-1kGN5vd5W" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h3 id="progressive-growing-video">Progressive Growing (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/V7n1M14jKPM" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/V7n1M14jKPM/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="pizza-to-pizza-video">Pizza to Pizza (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/MSPZ56zy-OU" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/MSPZ56zy-OU/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="burger-to-burger-video">Burger to Burger (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/LndGGbR4uxY" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/LndGGbR4uxY/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="random-latent-space-video">Random Latent Space (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/n0ucsR-ko60" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/n0ucsR-ko60/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h2 id="code-base">Code Base&lt;/h2>
+&lt;p>The code is based on a &lt;a href="https://github.com/jalola/improved-wgan-pytorch" target="_blank" rel="noopener">PyTorch implementation&lt;/a> of &lt;a href="https://arxiv.org/abs/1704.00028" target="_blank" rel="noopener">Improved Training of Wasserstein GAN&lt;/a> and a &lt;a href="https://github.com/jeromerony/Progressive_Growing_of_GANs-PyTorch" target="_blank" rel="noopener">PyTorch implementation of Progressive Growing of GANs&lt;/a>&lt;/p></description></item></channel></rss>

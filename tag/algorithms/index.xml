@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms | Steven Lang</title><link>/tag/algorithms/</link><atom:link href="/tag/algorithms/index.xml" rel="self" type="application/rss+xml"/><description>Algorithms</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Dec 2017 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Algorithms</title><link>/tag/algorithms/</link></image><item><title>Java Multi-Way Algorithms Library</title><link>/project/multiwary-algorithms-java/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>/project/multiwary-algorithms-java/</guid><description>&lt;p>Java library of multi-way algorithms.&lt;/p>
+&lt;p>For the documentation, go to: &lt;a href="https://waikato-datamining.github.io/multiway-algorithms/" target="_blank" rel="noopener">waikato-datamining.github.io/multiway-algorithms&lt;/a>.&lt;/p>
+&lt;p>Developed together with &lt;a href="https://www.cms.waikato.ac.nz/~fracpete/" target="_blank" rel="noopener">Peter Reutemann&lt;/a> at the University of Waikato (New Zealand)&lt;/p>
+&lt;h3 id="implemented-algorithms">Implemented Algorithms&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291099-128X%28199601%2910:1%3C47::AID-CEM400%3E3.0.CO;2-C/epdf" target="_blank" rel="noopener">Multi-linear PLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dl.acm.org/citation.cfm?id=1102451" target="_blank" rel="noopener">Non-Negative Tensor Factorization (NTF)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1016/S0169-7439%2897%2900032-4" target="_blank" rel="noopener">PARAFAC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1016/j.chemolab.2017.03.002" target="_blank" rel="noopener">Sequentially Orthogonalized Multilinear PLS (SONPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://models.life.ku.dk/sites/default/files/NPLS_Rver.zip" target="_blank" rel="noopener">TwoWayPCA&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

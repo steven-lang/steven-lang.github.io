@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steven Lang</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Steven Lang</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Steven Lang</title><link>/</link></image><item><title>Oriented Object Detection using a One-Stage Anchor-Free Deep Model</title><link>/project/master-thesis/</link><pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate><guid>/project/master-thesis/</guid><description>&lt;p>Master Thesis at the TU Darmstadt in the AIML Lab supervised by &lt;a href="https://ml-research.github.io/people/kkersting/index.html" target="_blank" rel="noopener">Prof. Kristian Kersting&lt;/a> and &lt;a href="https://www.ml.informatik.tu-darmstadt.de/people/fventola/" target="_blank" rel="noopener">Fabrizio Ventola&lt;/a>.&lt;/p>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Object detection is a fundamental task in computer vision. While substantial
+progress in the field of axis-aligned bounding-box detection has been made, it
+suffers from poor performance on oriented objects, resulting in large parts of
+the bounding box covering non-object related area. Therefore, the recent field
+of oriented object detection has emerged, generalizing object detection to
+arbitrary orientations which are commonly found in e.g. aerial view imagery or
+security camera footage. This enables a tighter fit of bounding boxes, leading
+to a better separation of bounding boxes especially in cases of dense object
+distributions. In this work we present DAFNe: a Dense one-stage
+Anchor-Free deep Network for oriented object detection. As one-stage model,
+DAFNe performs predictions on a dense grid over the input image, being
+architecturally simpler in design, as well as easier to optimize than their
+two-stage alternatives. Being an anchor-free model, DAFNe additionally
+reduces the prediction complexity by refraining from bounding box anchors
+which come with many burdens: anchor specifications need more attentive
+hyper-parameter fine-tuning on a per-dataset basis, increased model size and
+computational overhead. Moreover, we introduce a novel vectorized corner
+sorting algorithm to efficiently represent bounding boxes with a canonical
+corner ordering batch-wise, an orientation-aware center-ness formulation for
+arbitrary oriented bounding boxes to down-weight low-quality predictions, and
+a center-to-corner bounding-box prediction strategy that improves object
+localization performance. Our experiments show that DAFNe outperforms
+all previous one-stage anchor-free models on DOTA 1.0, to the best of our
+knowledge. DAFNe improves the prediction accuracy over the previous
+best results by 4.65% mAP, setting the new state-of-the-art results by
+achieving 76.95% mAP.&lt;/p></description></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>/post/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;ol>
+&lt;li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li>
+&lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
+&lt;li>You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li>
+&lt;/ol>
+&lt;figure id="figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="get-started">Get Started&lt;/h2>
+&lt;ul>
+&lt;li>👉 &lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">&lt;strong>Create a new site&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>📚 &lt;a href="https://wowchemy.com/docs/" target="_blank" rel="noopener">&lt;strong>Personalize your site&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>💬 &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Chat with the &lt;strong>Wowchemy community&lt;/strong>&lt;/a> or &lt;a href="https://discourse.gohugo.io" target="_blank" rel="noopener">&lt;strong>Hugo community&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>🐦 Twitter: &lt;a href="https://twitter.com/wowchemy" target="_blank" rel="noopener">@wowchemy&lt;/a> &lt;a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">@GeorgeCushen&lt;/a> &lt;a href="https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query" target="_blank" rel="noopener">#MadeWithWowchemy&lt;/a>&lt;/li>
+&lt;li>💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/issues" target="_blank" rel="noopener">Request a &lt;strong>feature&lt;/strong> or report a &lt;strong>bug&lt;/strong> for &lt;em>Wowchemy&lt;/em>&lt;/a>&lt;/li>
+&lt;li>⬆️ &lt;strong>Updating Wowchemy?&lt;/strong> View the &lt;a href="https://wowchemy.com/docs/guide/update/" target="_blank" rel="noopener">Update Guide&lt;/a> and &lt;a href="https://wowchemy.com/updates/" target="_blank" rel="noopener">Release Notes&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="crowd-funded-open-source-software">Crowd-funded open-source software&lt;/h2>
+&lt;p>To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p>
+&lt;h3 id="-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans">&lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a>&lt;/h3>
+&lt;p>As a token of appreciation for sponsoring, you can &lt;strong>unlock &lt;a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">these&lt;/a> awesome rewards and extra features 🦄✨&lt;/strong>&lt;/p>
+&lt;h2 id="ecosystem">Ecosystem&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener">Hugo Academic CLI&lt;/a>:&lt;/strong> Automatically import publications from BibTeX&lt;/li>
+&lt;/ul>
+&lt;h2 id="inspiration">Inspiration&lt;/h2>
+&lt;p>&lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Check out the latest &lt;strong>demo&lt;/strong>&lt;/a> of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://wowchemy.com/user-stories/" target="_blank" rel="noopener">view the &lt;strong>showcase&lt;/strong>&lt;/a> of personal, project, and business sites.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Page builder&lt;/strong> - Create &lt;em>anything&lt;/em> with &lt;a href="https://wowchemy.com/docs/page-builder/" target="_blank" rel="noopener">&lt;strong>widgets&lt;/strong>&lt;/a> and &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>elements&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Edit any type of content&lt;/strong> - Blog posts, publications, talks, slides, projects, and more!&lt;/li>
+&lt;li>&lt;strong>Create content&lt;/strong> in &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://wowchemy.com/docs/import/jupyter/" target="_blank" rel="noopener">&lt;strong>Jupyter&lt;/strong>&lt;/a>, or &lt;a href="https://wowchemy.com/docs/install-locally/" target="_blank" rel="noopener">&lt;strong>RStudio&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Plugin System&lt;/strong> - Fully customizable &lt;a href="https://wowchemy.com/docs/customization/" target="_blank" rel="noopener">&lt;strong>color&lt;/strong> and &lt;strong>font themes&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Display Code and Math&lt;/strong> - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener">LaTeX math&lt;/a> supported&lt;/li>
+&lt;li>&lt;strong>Integrations&lt;/strong> - &lt;a href="https://analytics.google.com" target="_blank" rel="noopener">Google Analytics&lt;/a>, &lt;a href="https://disqus.com" target="_blank" rel="noopener">Disqus commenting&lt;/a>, Maps, Contact Forms, and more!&lt;/li>
+&lt;li>&lt;strong>Beautiful Site&lt;/strong> - Simple and refreshing one page design&lt;/li>
+&lt;li>&lt;strong>Industry-Leading SEO&lt;/strong> - Help get your website found on search engines and social media&lt;/li>
+&lt;li>&lt;strong>Media Galleries&lt;/strong> - Display your images and videos with captions in a customizable gallery&lt;/li>
+&lt;li>&lt;strong>Mobile Friendly&lt;/strong> - Look amazing on every screen with a mobile friendly version of your site&lt;/li>
+&lt;li>&lt;strong>Multi-language&lt;/strong> - 34+ language packs including English, 中文, and Português&lt;/li>
+&lt;li>&lt;strong>Multi-user&lt;/strong> - Each author gets their own profile page&lt;/li>
+&lt;li>&lt;strong>Privacy Pack&lt;/strong> - Assists with GDPR&lt;/li>
+&lt;li>&lt;strong>Stand Out&lt;/strong> - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li>
+&lt;li>&lt;strong>One-Click Deployment&lt;/strong> - No servers. No databases. Only files.&lt;/li>
+&lt;/ul>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;p>Wowchemy and its templates come with &lt;strong>automatic day (light) and night (dark) mode&lt;/strong> built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener">Demo&lt;/a> to see it in action! Day/night mode can also be disabled by the site admin in &lt;code>params.toml&lt;/code>.&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
+&lt;h2 id="license">License&lt;/h2>
+&lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
+&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Edward - Deep Probabilistic Programming</title><link>/project/deep-probabilistic-programming-edward/</link><pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate><guid>/project/deep-probabilistic-programming-edward/</guid><description>&lt;p>Write-up and presentation during the Extended Machine Learning Seminar at TU Darmstadt about the Edward deep probabilistic programming language.&lt;/p>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Probabilistic programming is the approach to adopt probabilistic models and
+inference as first class citizens of a programming language. Its main goal is
+lowering the entry barrier into the field of probabilistic modeling and allow
+easier and faster prototyping in research.&lt;/p>
+&lt;p>In recent years, a new class of these languages has risen: Deep probabilistic
+programming languages. Their focus is on unifying probabilistic programming
+languages with the modeling power, efficiency and composability of deep neural
+networks in the field of machine learning. We focus on Edward, a Turing-complete
+deep probabilistic programming language, and compare it to prior, as well as
+future work. Edward makes probabilistic programming as flexible and
+computationally efficient as deep learning and allows for rich compositions of
+probabilistic models and inference procedures.&lt;/p></description></item><item><title>Einsum Networks: Fast and Scalable Learning of Tractable Probabilistic Circuits</title><link>/publication/einsum-networks/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>/publication/einsum-networks/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Create your slides in Markdown - click the *Slides* button to check out the example. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>GAN based Food Interpolation</title><link>/project/food-interpolator/</link><pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate><guid>/project/food-interpolator/</guid><description>&lt;p>Deep Generative Models Course Project at TU Darmstadt.&lt;/p>
+&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>The main goal of this project is to learn a conditional GAN that can interpolate between different types of food.
+We want to achieve fluid transitions between e.g.:&lt;/p>
+&lt;ul>
+&lt;li>Burger &amp;lt;-&amp;gt; Pizza&lt;/li>
+&lt;/ul>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;ul>
+&lt;li>Scraped from google with &lt;a href="https://github.com/hardikvasa/google-images-download" target="_blank" rel="noopener">google-images-download&lt;/a>&lt;/li>
+&lt;li>Partly from &lt;a href="http://pizzagan.csail.mit.edu/" target="_blank" rel="noopener">PizzaGAN&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>Video results can be found &lt;a href="https://www.youtube.com/watch?v=LndGGbR4uxY&amp;amp;list=PLVCWvLHvDaenJrE2N-Akwo7-1kGN5vd5W" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h3 id="progressive-growing-video">Progressive Growing (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/V7n1M14jKPM" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/V7n1M14jKPM/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="pizza-to-pizza-video">Pizza to Pizza (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/MSPZ56zy-OU" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/MSPZ56zy-OU/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="burger-to-burger-video">Burger to Burger (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/LndGGbR4uxY" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/LndGGbR4uxY/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="random-latent-space-video">Random Latent Space (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/n0ucsR-ko60" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/n0ucsR-ko60/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h2 id="code-base">Code Base&lt;/h2>
+&lt;p>The code is based on a &lt;a href="https://github.com/jalola/improved-wgan-pytorch" target="_blank" rel="noopener">PyTorch implementation&lt;/a> of &lt;a href="https://arxiv.org/abs/1704.00028" target="_blank" rel="noopener">Improved Training of Wasserstein GAN&lt;/a> and a &lt;a href="https://github.com/jeromerony/Progressive_Growing_of_GANs-PyTorch" target="_blank" rel="noopener">PyTorch implementation of Progressive Growing of GANs&lt;/a>&lt;/p></description></item><item><title>WekaDeeplearning4j: A deep learning package for Weka based on Deeplearning4j</title><link>/publication/weka-dl4j/</link><pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/weka-dl4j/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Create your slides in Markdown - click the *Slides* button to check out the example. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Unsupervised Monocular Depth Estimation using Atrous Convolutions</title><link>/project/monodepth/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>/project/monodepth/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Monocular depth estimation is concerned with computing a dense depth map from a single image, but faces difficulties especially at object boundaries. Atrous convolutions have been successfully employed to this end in the task of semantic segmentation. In this paper we investigate, whether it is also possible to apply atrous convolutions in unsupervised monocular depth estimation. Specifically, we place an Atrous Spatial Pyramid Pooling block in a convolutional neural network between the encoder and decoder. This block allows for computing feature maps at different spatial scales on top of the encoder output. Our experiments show that atrous convolutions in the proposed setup do not improve depth estimation performance. Furthermore, the necessity of a lower output stride after the encoder, such that an increased receptive field size is even applicable, harms runtime and increases memory consumption. Finally, we show that it is possible to reduce the number of channels after the encoder, which reduces the parameter count without impairing predictions.&lt;/p>
+&lt;p>Project on &lt;em>Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em> in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p></description></item><item><title>Java Matrix Algorithms Library</title><link>/project/matrix-algorithms-java/</link><pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate><guid>/project/matrix-algorithms-java/</guid><description>&lt;p>Developed together with &lt;a href="https://www.cms.waikato.ac.nz/~fracpete/" target="_blank" rel="noopener">Peter Reutemann&lt;/a> at the University of Waikato (New Zealand)&lt;/p>
+&lt;h2 id="algorithms">Algorithms&lt;/h2>
+&lt;p>Unsupervised:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://web.archive.org/web/20160630035830/http://statmaster.sdu.dk:80/courses/ST02/module05/module.pdf" target="_blank" rel="noopener">Principal Component Analysis (PCA)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#GLSW_Algorithm" target="_blank" rel="noopener">Generalized Least Squares Weighting (GLSW)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#External_Parameter_Orthogonalization_.28EPO.29" target="_blank" rel="noopener">External Parameter Orthogonalization (EPO)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.helsinki.fi/u/ahyvarin/papers/bookfinal_ICA.pdf" target="_blank" rel="noopener">Independent Component Analysis (FastICA)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Supervised:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://web.archive.org/web/20081001154431/http://statmaster.sdu.dk:80/courses/ST02/module07/module.pdf" target="_blank" rel="noopener">Partial Least Squares (PLS1)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.statsoft.com/textbook/partial-least-squares/#SIMPLS" target="_blank" rel="noopener">Simple PLS (SIMPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.plantbreeding.wzw.tum.de/fileadmin/w00bdb/www/kraemer/icml_kernelpls.pdf" target="_blank" rel="noopener">Kernel PLS (KernelPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.r-bloggers.com/evaluation-of-orthogonal-signal-correction-for-pls-modeling-osc-pls-and-opls/" target="_blank" rel="noopener">Orthogonal Signal Correction (OPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.statsoft.com/textbook/partial-least-squares/#NIPALS" target="_blank" rel="noopener">Nonlinear Iterative PLS (NIPALS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2810828/" target="_blank" rel="noopener">Sparse PLS (SparsePLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#GLSW_Algorithm" target="_blank" rel="noopener">Y Gradient based Generalized Least Squares Weighting (YGradientGLSW)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#External_Parameter_Orthogonalization_.28EPO.29" target="_blank" rel="noopener">Y Gradient based External Parameter Orthogonalization (YGradientEPO)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.16" target="_blank" rel="noopener">Canonical Correlation Analysis (CCA)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b00498" target="_blank" rel="noopener">Domain Invariant PLS (DIPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://or.nsfc.gov.cn/bitstream/00001903-5/485833/1/1000013952154.pdf" target="_blank" rel="noopener">Variance Constrained PLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sciencedirect.com/science/article/pii/S0169743998001099" target="_blank" rel="noopener">Orthogonal Signal Correction (OSC)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&amp;hellip;&lt;/p></description></item><item><title>Java Multi-Way Algorithms Library</title><link>/project/multiwary-algorithms-java/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>/project/multiwary-algorithms-java/</guid><description>&lt;p>Java library of multi-way algorithms.&lt;/p>
+&lt;p>For the documentation, go to: &lt;a href="https://waikato-datamining.github.io/multiway-algorithms/" target="_blank" rel="noopener">waikato-datamining.github.io/multiway-algorithms&lt;/a>.&lt;/p>
+&lt;p>Developed together with &lt;a href="https://www.cms.waikato.ac.nz/~fracpete/" target="_blank" rel="noopener">Peter Reutemann&lt;/a> at the University of Waikato (New Zealand)&lt;/p>
+&lt;h3 id="implemented-algorithms">Implemented Algorithms&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291099-128X%28199601%2910:1%3C47::AID-CEM400%3E3.0.CO;2-C/epdf" target="_blank" rel="noopener">Multi-linear PLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dl.acm.org/citation.cfm?id=1102451" target="_blank" rel="noopener">Non-Negative Tensor Factorization (NTF)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1016/S0169-7439%2897%2900032-4" target="_blank" rel="noopener">PARAFAC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doi.org/10.1016/j.chemolab.2017.03.002" target="_blank" rel="noopener">Sequentially Orthogonalized Multilinear PLS (SONPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://models.life.ku.dk/sites/default/files/NPLS_Rver.zip" target="_blank" rel="noopener">TwoWayPCA&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Machine Learning Based Prediction of Half-Lives of Environmental Pollutants</title><link>/project/bachelor-thesis/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>/project/bachelor-thesis/</guid><description>&lt;p>Bachelor Thesis at the JGU Mainz in the Research Group Data-Mining, supervised by &lt;a href="https://www.datamining.informatik.uni-mainz.de/stefan-kramer/" target="_blank" rel="noopener">Prof. Dr. Stefan Kramer&lt;/a> and &lt;a href="https://unidirectory.auckland.ac.nz/people/profile/j-wicker" target="_blank" rel="noopener">Dr. Joerg Wicker&lt;/a>.&lt;/p>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Estimating degradation times of molecules, that possibly end up in the environment, is an important aspect for a wide range of industries. They have to take into account regulations that set a legal limit on half-lives of potential harmful molecules used in e.g. drugs or pesticides. This thesis addresses this by building machine learning models for the prediction of environmental pollutant&amp;rsquo;s half-lives. The recently released Eawag-Soil dataset of compounds and environmental conditions is used to explore possible influences on the molecule&amp;rsquo;s persistence. Moreover, a novel neural network architecture is proposed that takes advantage of the bi-relational data scheme.&lt;/p>
+&lt;p>The results indicate that the dataset does either not have enough environmental variables or not enough combinations of compounds with degradation scenarios to explore the influences of the environmental conditions on the half-life times.&lt;/p></description></item><item><title>Deep Feature Interpolation</title><link>/project/deep-feature-interpolation/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>/project/deep-feature-interpolation/</guid><description>&lt;h3 id="description">Description&lt;/h3>
+&lt;p>Implementation of the Deep Feature Interpolation for Image Content Changes &lt;a href="https://arxiv.org/abs/1611.05507" target="_blank" rel="noopener">paper&lt;/a> in tensorflow.&lt;/p>
+&lt;p>The goal is to add a specific target feature to the face of a person. This may be a Mustache or a smiling mouth. The procedure starts with taking &lt;code>k&lt;/code> images of people with the feature and &lt;code>k&lt;/code> images of people without the feature. These sets (positive/negative) are the input to an - on IMAGENET pretrained - VGG19 network. The output of each image is then fetched at the Relu layers of the third, fourth and fifth convolutional block. This builds a deep feature representation of an image. The deep feature vector of the target feature is then calculated by taking the difference of the mean of the positive and the negative set. To add the target feature to a new image, the target feature vector in the deep feature space will be added to the deep feature representation of this image. The image will then be restored by reverse mapping the deep feature values into the original pixel space, using an optimizer of your choice and the following loss function:&lt;/p>
+&lt;p>$$
+z = argmin_z \frac{1}{2}||\left(\phi\left(x\right) + \alpha w\right) - \phi \left( z \right)||_2^2 + \lambda_{V^\beta} R_{V^\beta}\left(z\right)
+$$
+$$
+R_{V^\beta}\left(z\right) = \sum_{i,j}\left( \left(z_{i,j+1} - z_{i,j}\right)^2 + \left(z_{i+1,j} - z_{i,j}\right)^2 \right)
+$$&lt;/p>
+&lt;p>Where $z$ is the new image, $x$ is the input image, $\phi$ is the mapping into deep feature space, $\alpha$ is a scalar and $w$ is the deep feature vector of the target feature.&lt;/p></description></item><item><title>Specifying and Checking File System Crash-Consistency Models</title><link>/project/bs-seminar/</link><pubDate>Sun, 04 Sep 2016 00:00:00 +0000</pubDate><guid>/project/bs-seminar/</guid><description>&lt;h3 id="abstract-german">Abstract (German)&lt;/h3>
+&lt;p>Die heutigen POSIX Dateisystem Schnittstellen besitzen keine klare Definition der resultierenden Zustände eines Systemabsturzes. Dies ist problematisch für Anwendungen, welche auf persistenten Speicher zurückgreifen um den ursprünglichen Zustand nach einem solchen Systemabsturz wiederherzustellen. Die Schwierigkeit für Entwickler besteht nun darin, die Reihenfolge und Abhängigkeit zwischen Dateisystem Operationen zu verstehen. Dies kann zu unvorhersehbarem Fehlverhalten, korrupten Anwendungszuständen und im schlimmsten Fall sogar zum Verlust der Daten führen.&lt;/p>
+&lt;p>Diese Ausarbeitung beschreibt Absturz-Konsistenz Modelle, analog zu Speicher-Konsistenz Modellen. Sie bestehen aus den folgenden zwei Bestandteilen: Litmus Tests, welche erlaubte und verbotene Verhalten von Dateisystemen zeigen und axiomatische Spezifikationen, welche zulässige Absturzverhalten deklarativ mit einer Menge an Axiomen beschreiben, sowie operationale Spezifikationen, bestehend aus abstrakten Automaten, die relevante Aspekte eines Dateisystem simulieren können.&lt;/p>
+&lt;p>Des weiteren wird das Framework &lt;em>FERRITE&lt;/em> beschrieben, mit dem man Absturz-Konsistenz Modelle ausarbeiten und gegen echte Dateisysteme validieren kann.&lt;/p></description></item><item><title>Mining of Massive Datasets</title><link>/project/dm-seminar/</link><pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate><guid>/project/dm-seminar/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>This report is orientated towards the book Mining of Massive Datasets [6] and describes two novel frameworks for efficient massive data analysis on compute clusters. A short introduction to compute clusters and a distributed file system will build the base for MapReduce. After showing a few examples of applications and optimizations, the disadvantages are listed and lead to the second framework, called Spark, which captures on these drawbacks. The report shows that Spark outperforms the MapReduce implementation Hadoop at iterative tasks with working sets.&lt;/p></description></item><item><title/><link>/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/admin/config.yml</guid><description/></item></channel></rss>

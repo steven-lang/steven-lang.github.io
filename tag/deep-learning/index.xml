@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Deep Learning | Steven Lang</title><link>/tag/deep-learning/</link><atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml"/><description>Deep Learning</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Deep Learning</title><link>/tag/deep-learning/</link></image><item><title>Oriented Object Detection using a One-Stage Anchor-Free Deep Model</title><link>/project/master-thesis/</link><pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate><guid>/project/master-thesis/</guid><description>&lt;p>Master Thesis at the TU Darmstadt in the AIML Lab supervised by &lt;a href="https://ml-research.github.io/people/kkersting/index.html" target="_blank" rel="noopener">Prof. Kristian Kersting&lt;/a> and &lt;a href="https://www.ml.informatik.tu-darmstadt.de/people/fventola/" target="_blank" rel="noopener">Fabrizio Ventola&lt;/a>.&lt;/p>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Object detection is a fundamental task in computer vision. While substantial
+progress in the field of axis-aligned bounding-box detection has been made, it
+suffers from poor performance on oriented objects, resulting in large parts of
+the bounding box covering non-object related area. Therefore, the recent field
+of oriented object detection has emerged, generalizing object detection to
+arbitrary orientations which are commonly found in e.g. aerial view imagery or
+security camera footage. This enables a tighter fit of bounding boxes, leading
+to a better separation of bounding boxes especially in cases of dense object
+distributions. In this work we present DAFNe: a Dense one-stage
+Anchor-Free deep Network for oriented object detection. As one-stage model,
+DAFNe performs predictions on a dense grid over the input image, being
+architecturally simpler in design, as well as easier to optimize than their
+two-stage alternatives. Being an anchor-free model, DAFNe additionally
+reduces the prediction complexity by refraining from bounding box anchors
+which come with many burdens: anchor specifications need more attentive
+hyper-parameter fine-tuning on a per-dataset basis, increased model size and
+computational overhead. Moreover, we introduce a novel vectorized corner
+sorting algorithm to efficiently represent bounding boxes with a canonical
+corner ordering batch-wise, an orientation-aware center-ness formulation for
+arbitrary oriented bounding boxes to down-weight low-quality predictions, and
+a center-to-corner bounding-box prediction strategy that improves object
+localization performance. Our experiments show that DAFNe outperforms
+all previous one-stage anchor-free models on DOTA 1.0, to the best of our
+knowledge. DAFNe improves the prediction accuracy over the previous
+best results by 4.65% mAP, setting the new state-of-the-art results by
+achieving 76.95% mAP.&lt;/p></description></item><item><title>WekaDeeplearning4j: A deep learning package for Weka based on Deeplearning4j</title><link>/publication/weka-dl4j/</link><pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/weka-dl4j/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+&amp;ndash;&amp;gt;&lt;/p>
+&lt;!-- Create your slides in Markdown - click the *Slides* button to check out the example. -->
+&lt;!--
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Unsupervised Monocular Depth Estimation using Atrous Convolutions</title><link>/project/monodepth/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>/project/monodepth/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Monocular depth estimation is concerned with computing a dense depth map from a single image, but faces difficulties especially at object boundaries. Atrous convolutions have been successfully employed to this end in the task of semantic segmentation. In this paper we investigate, whether it is also possible to apply atrous convolutions in unsupervised monocular depth estimation. Specifically, we place an Atrous Spatial Pyramid Pooling block in a convolutional neural network between the encoder and decoder. This block allows for computing feature maps at different spatial scales on top of the encoder output. Our experiments show that atrous convolutions in the proposed setup do not improve depth estimation performance. Furthermore, the necessity of a lower output stride after the encoder, such that an increased receptive field size is even applicable, harms runtime and increases memory consumption. Finally, we show that it is possible to reduce the number of channels after the encoder, which reduces the parameter count without impairing predictions.&lt;/p>
+&lt;p>Project on &lt;em>Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em> in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p></description></item></channel></rss>
