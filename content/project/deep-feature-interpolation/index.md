@@ -11,7 +11,7 @@ image:
   focal_point: Smart
 
 url_slides: "pdf/deep-feature-interpolation.pdf"
-url_code: "https://github.com/steven-lang/dfi-tensorflow"
+url_code: https://github.com/steven-lang/dfi-tensorflow
 
 math: true
 ---
