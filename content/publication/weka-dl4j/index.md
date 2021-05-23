@@ -32,17 +32,10 @@ tags:
 - Deep Learning
 featured: true
 
-# links:
-#  - name: Custom Link
-#    url: http://example.org
+links:
+ - name: Code
+   url: https://github.com/Waikato/wekaDeeplearning4j
 url_pdf: 'pdf/WDL4J_KBS2019.pdf'
-url_code: https://github.com/Waikato/wekaDeeplearning4j
-# url_video: https://slideslive.com/38928148
-# url_dataset: '#'
-# url_poster: '#'
-# url_project: ''
-# url_slides: https://icml.cc/media/Slides/icml/2020/virtual(no-parent)-15-19-00UTC-6418-einsum_networks.pdf
-# url_source: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

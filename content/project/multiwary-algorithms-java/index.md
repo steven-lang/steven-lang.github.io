@@ -12,7 +12,9 @@ image:
   caption: 
   focal_point: Smart
 
-url_code: "https://github.com/waikato-datamining/multiway-algorithms"
+links:
+  - name: Code
+    url: "https://github.com/waikato-datamining/multiway-algorithms"
 ---
 
 Java library of multi-way algorithms.

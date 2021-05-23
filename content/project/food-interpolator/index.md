@@ -13,8 +13,10 @@ image:
   caption: 
   focal_point: Smart
 
+links:
+  - name: Code
+    url: "https://github.com/steven-lang/food-interpolator"
 url_slides: "pdf/deep-generative-models-food-interpolator.pdf"
-url_code: "https://github.com/steven-lang/food-interpolator"
 ---
 
 Deep Generative Models Course Project at TU Darmstadt.

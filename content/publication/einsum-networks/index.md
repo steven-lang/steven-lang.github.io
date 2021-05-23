@@ -37,17 +37,15 @@ tags:
 - Einsum
 featured: true
 
-# links:
-#  - name: Custom Link
-#    url: http://example.org
-url_pdf: http://proceedings.mlr.press/v119/peharz20a/peharz20a.pdf
-url_code: https://github.com/cambridge-mlg/EinsumNetworks
-url_video: https://slideslive.com/38928148
-# url_dataset: '#'
-# url_poster: '#'
-# url_project: ''
-url_slides: https://icml.cc/media/Slides/icml/2020/virtual(no-parent)-15-19-00UTC-6418-einsum_networks.pdf
-# url_source: '#'
+links:
+ - name: PDF
+   url: http://proceedings.mlr.press/v119/peharz20a/peharz20a.pdf
+ - name: Code
+   url: https://github.com/cambridge-mlg/EinsumNetworks
+ - name: Slides
+   url: https://icml.cc/media/Slides/icml/2020/virtual(no-parent)-15-19-00UTC-6418-einsum_networks.pdf
+ - name: Video
+   url: https://slideslive.com/38928148
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

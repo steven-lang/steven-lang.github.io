@@ -12,7 +12,9 @@ image:
   caption: 
   focal_point: Smart
 
-url_code: "https://github.com/waikato-datamining/matrix-algorithms"
+links:
+ - name: Code
+   url: "https://github.com/waikato-datamining/matrix-algorithms"
 ---
 
 Developed together with [Peter Reutemann](https://www.cms.waikato.ac.nz/~fracpete/) at the University of Waikato (New Zealand)
