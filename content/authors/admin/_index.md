@@ -15,6 +15,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My interests include tractable probabilistic models, computer vision, and programming.
+bio: Computer Science student and Research Assistant at the AIML Lab TU Darmstadt
 
 # Interests to show in About widget
 interests:
