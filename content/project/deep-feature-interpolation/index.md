@@ -20,9 +20,23 @@ math: true
 
 ### Description
 
-Implementation of the Deep Feature Interpolation for Image Content Changes [paper](https://arxiv.org/abs/1611.05507) in tensorflow.
+Project on the Implementation of the Deep Feature Interpolation for Image
+Content Changes [paper](https://arxiv.org/abs/1611.05507) in tensorflow together
+with [Manfred Faldum](https://www.numerik.mathematik.uni-mainz.de/manfred-faldum/).
 
-The goal is to add a specific target feature to the face of a person. This may be a Mustache or a smiling mouth. The procedure starts with taking `k` images of people with the feature and `k` images of people without the feature. These sets (positive/negative) are the input to an - on IMAGENET pretrained - VGG19 network. The output of each image is then fetched at the Relu layers of the third, fourth and fifth convolutional block. This builds a deep feature representation of an image. The deep feature vector of the target feature is then calculated by taking the difference of the mean of the positive and the negative set. To add the target feature to a new image, the target feature vector in the deep feature space will be added to the deep feature representation of this image. The image will then be restored by reverse mapping the deep feature values into the original pixel space, using an optimizer of your choice and the following loss function: 
+The goal of deep feature interpolation is to add a specific target feature to
+the face of a person. This may be a Mustache or a smiling mouth. The procedure
+starts with taking `k` images of people with the feature and `k` images of
+people without the feature. These sets (positive/negative) are the input to an -
+on IMAGENET pretrained - VGG19 network. The output of each image is then fetched
+at the Relu layers of the third, fourth and fifth convolutional block. This
+builds a deep feature representation of an image. The deep feature vector of the
+target feature is then calculated by taking the difference of the mean of the
+positive and the negative set. To add the target feature to a new image, the
+target feature vector in the deep feature space will be added to the deep
+feature representation of this image. The image will then be restored by reverse
+mapping the deep feature values into the original pixel space, using an
+optimizer of your choice and the following loss function:   
 
 $$
 z = argmin_z \frac{1}{2}||\left(\phi\left(x\right) + \alpha w\right) - \phi \left( z \right)||_2^2 + \lambda\_{V^\beta} R\_{V^\beta}\left(z\right)
