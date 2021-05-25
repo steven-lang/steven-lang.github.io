@@ -101,8 +101,22 @@ We want to achieve fluid transitions between e.g.:&lt;/p>
 &lt;h3 id="abstract">Abstract&lt;/h3>
 &lt;p>Estimating degradation times of molecules, that possibly end up in the environment, is an important aspect for a wide range of industries. They have to take into account regulations that set a legal limit on half-lives of potential harmful molecules used in e.g. drugs or pesticides. This thesis addresses this by building machine learning models for the prediction of environmental pollutant&amp;rsquo;s half-lives. The recently released Eawag-Soil dataset of compounds and environmental conditions is used to explore possible influences on the molecule&amp;rsquo;s persistence. Moreover, a novel neural network architecture is proposed that takes advantage of the bi-relational data scheme.&lt;/p>
 &lt;p>The results indicate that the dataset does either not have enough environmental variables or not enough combinations of compounds with degradation scenarios to explore the influences of the environmental conditions on the half-life times.&lt;/p></description></item><item><title>Deep Feature Interpolation</title><link>/project/deep-feature-interpolation/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>/project/deep-feature-interpolation/</guid><description>&lt;h3 id="description">Description&lt;/h3>
-&lt;p>Implementation of the Deep Feature Interpolation for Image Content Changes &lt;a href="https://arxiv.org/abs/1611.05507" target="_blank" rel="noopener">paper&lt;/a> in tensorflow.&lt;/p>
-&lt;p>The goal is to add a specific target feature to the face of a person. This may be a Mustache or a smiling mouth. The procedure starts with taking &lt;code>k&lt;/code> images of people with the feature and &lt;code>k&lt;/code> images of people without the feature. These sets (positive/negative) are the input to an - on IMAGENET pretrained - VGG19 network. The output of each image is then fetched at the Relu layers of the third, fourth and fifth convolutional block. This builds a deep feature representation of an image. The deep feature vector of the target feature is then calculated by taking the difference of the mean of the positive and the negative set. To add the target feature to a new image, the target feature vector in the deep feature space will be added to the deep feature representation of this image. The image will then be restored by reverse mapping the deep feature values into the original pixel space, using an optimizer of your choice and the following loss function:&lt;/p>
+&lt;p>Project on the Implementation of the Deep Feature Interpolation for Image
+Content Changes &lt;a href="https://arxiv.org/abs/1611.05507" target="_blank" rel="noopener">paper&lt;/a> in tensorflow together
+with &lt;a href="https://www.numerik.mathematik.uni-mainz.de/manfred-faldum/" target="_blank" rel="noopener">Manfred Faldum&lt;/a>.&lt;/p>
+&lt;p>The goal of deep feature interpolation is to add a specific target feature to
+the face of a person. This may be a Mustache or a smiling mouth. The procedure
+starts with taking &lt;code>k&lt;/code> images of people with the feature and &lt;code>k&lt;/code> images of
+people without the feature. These sets (positive/negative) are the input to an -
+on IMAGENET pretrained - VGG19 network. The output of each image is then fetched
+at the Relu layers of the third, fourth and fifth convolutional block. This
+builds a deep feature representation of an image. The deep feature vector of the
+target feature is then calculated by taking the difference of the mean of the
+positive and the negative set. To add the target feature to a new image, the
+target feature vector in the deep feature space will be added to the deep
+feature representation of this image. The image will then be restored by reverse
+mapping the deep feature values into the original pixel space, using an
+optimizer of your choice and the following loss function:&lt;/p>
 &lt;p>$$
 z = argmin_z \frac{1}{2}||\left(\phi\left(x\right) + \alpha w\right) - \phi \left( z \right)||_2^2 + \lambda_{V^\beta} R_{V^\beta}\left(z\right)
 $$

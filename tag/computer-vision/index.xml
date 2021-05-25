@@ -28,8 +28,22 @@ best results by 4.65% mAP, setting the new state-of-the-art results by
 achieving 76.95% mAP.&lt;/p></description></item><item><title>Unsupervised Monocular Depth Estimation using Atrous Convolutions</title><link>/project/monodepth/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>/project/monodepth/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
 &lt;p>Monocular depth estimation is concerned with computing a dense depth map from a single image, but faces difficulties especially at object boundaries. Atrous convolutions have been successfully employed to this end in the task of semantic segmentation. In this paper we investigate, whether it is also possible to apply atrous convolutions in unsupervised monocular depth estimation. Specifically, we place an Atrous Spatial Pyramid Pooling block in a convolutional neural network between the encoder and decoder. This block allows for computing feature maps at different spatial scales on top of the encoder output. Our experiments show that atrous convolutions in the proposed setup do not improve depth estimation performance. Furthermore, the necessity of a lower output stride after the encoder, such that an increased receptive field size is even applicable, harms runtime and increases memory consumption. Finally, we show that it is possible to reduce the number of channels after the encoder, which reduces the parameter count without impairing predictions.&lt;/p>
 &lt;p>Project on &lt;em>Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em> in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p></description></item><item><title>Deep Feature Interpolation</title><link>/project/deep-feature-interpolation/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>/project/deep-feature-interpolation/</guid><description>&lt;h3 id="description">Description&lt;/h3>
-&lt;p>Implementation of the Deep Feature Interpolation for Image Content Changes &lt;a href="https://arxiv.org/abs/1611.05507" target="_blank" rel="noopener">paper&lt;/a> in tensorflow.&lt;/p>
-&lt;p>The goal is to add a specific target feature to the face of a person. This may be a Mustache or a smiling mouth. The procedure starts with taking &lt;code>k&lt;/code> images of people with the feature and &lt;code>k&lt;/code> images of people without the feature. These sets (positive/negative) are the input to an - on IMAGENET pretrained - VGG19 network. The output of each image is then fetched at the Relu layers of the third, fourth and fifth convolutional block. This builds a deep feature representation of an image. The deep feature vector of the target feature is then calculated by taking the difference of the mean of the positive and the negative set. To add the target feature to a new image, the target feature vector in the deep feature space will be added to the deep feature representation of this image. The image will then be restored by reverse mapping the deep feature values into the original pixel space, using an optimizer of your choice and the following loss function:&lt;/p>
+&lt;p>Project on the Implementation of the Deep Feature Interpolation for Image
+Content Changes &lt;a href="https://arxiv.org/abs/1611.05507" target="_blank" rel="noopener">paper&lt;/a> in tensorflow together
+with &lt;a href="https://www.numerik.mathematik.uni-mainz.de/manfred-faldum/" target="_blank" rel="noopener">Manfred Faldum&lt;/a>.&lt;/p>
+&lt;p>The goal of deep feature interpolation is to add a specific target feature to
+the face of a person. This may be a Mustache or a smiling mouth. The procedure
+starts with taking &lt;code>k&lt;/code> images of people with the feature and &lt;code>k&lt;/code> images of
+people without the feature. These sets (positive/negative) are the input to an -
+on IMAGENET pretrained - VGG19 network. The output of each image is then fetched
+at the Relu layers of the third, fourth and fifth convolutional block. This
+builds a deep feature representation of an image. The deep feature vector of the
+target feature is then calculated by taking the difference of the mean of the
+positive and the negative set. To add the target feature to a new image, the
+target feature vector in the deep feature space will be added to the deep
+feature representation of this image. The image will then be restored by reverse
+mapping the deep feature values into the original pixel space, using an
+optimizer of your choice and the following loss function:&lt;/p>
 &lt;p>$$
 z = argmin_z \frac{1}{2}||\left(\phi\left(x\right) + \alpha w\right) - \phi \left( z \right)||_2^2 + \lambda_{V^\beta} R_{V^\beta}\left(z\right)
 $$
