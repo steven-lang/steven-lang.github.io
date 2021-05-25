@@ -18,5 +18,4 @@ url_slides: "pdf/dm-seminar/presentation.pdf"
 
 ### Abstract 
 
-This report is orientated towards the book Mining of Massive Datasets [6] and describes two novel frameworks for efficient massive data analysis on compute clusters. A short introduction to compute clusters and a distributed file system will build the base for MapReduce. After showing a few examples of applications and optimizations, the disadvantages are listed and lead to the second framework, called Spark, which captures on these drawbacks. The report shows that Spark outperforms the MapReduce implementation Hadoop at iterative tasks with working sets.
-
+This report is orientated towards the book [Mining of Massive Datasets](http://mmds.org/) and describes two novel frameworks for efficient massive data analysis on compute clusters. A short introduction to compute clusters and a distributed file system will build the base for MapReduce. After showing a few examples of applications and optimizations, the disadvantages are listed and lead to the second framework, called Spark, which captures on these drawbacks. The report shows that Spark outperforms the MapReduce implementation Hadoop at iterative tasks with working sets.
