@@ -4,7 +4,8 @@ summary: Master Thesis at the AIML Lab TU Darmstadt
 tags:
 - Deep Learning
 - Computer Vision
-- Rotated Object Detection
+- Oriented Object Detection
+- Object Detection
 date: "2021-05-13T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
