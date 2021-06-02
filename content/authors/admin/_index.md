@@ -15,12 +15,12 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My interests include tractable probabilistic models, computer vision, and programming.
-bio: Computer Science student and research assistant at the AIML Lab TU Darmstadt
+bio: "PhD student at the AIML Lab, TU Darmstadt"
 
 # Interests to show in About widget
 interests:
 - Probabilistic Models
-- Generative Models
+- Sum-Product Networks
 - Computer Vision
 - Programming
 
@@ -29,7 +29,7 @@ education:
   courses:
   - course: M.Sc. in Visual Computing
     institution: Technical University of Darmstadt
-    year: 2018 - Now
+    year: 2018 - 2021
   - course: B.Sc. in Computer Science
     institution: Johannes-Gutenberg Universität, Mainz
     year: 2013 - 2017
@@ -42,10 +42,10 @@ social:
 #- icon: envelope
 #  icon_pack: fas
 #  link: '/#contact'
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-#   label: Follow me on Twitter
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/slangmz
+  label: Follow me on Twitter
 #   display:
 #     header: true
 # - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -72,7 +72,7 @@ email: "steven.lang.mz@gmail.com"
 highlight_name: false
 ---
 
-I’m a Computer Science student at the Technical University of Darmstadt and a research assistant at the Artificial Intelligence and Machine Learning Lab, TU Darmstadt.
+I’m a PhD student at the  Artificial Intelligence and Machine Learning Lab, TU Darmstadt.
 
-My main research interests cover a broad range of Machine Learning related topics such as deep models, probabilistic models, deep generative models and their applications in computer vision.
+My main research interests cover a broad range of Machine Learning related topics such as deep models, tractable probabilistic models, deep generative models and their applications in computer vision.
 
