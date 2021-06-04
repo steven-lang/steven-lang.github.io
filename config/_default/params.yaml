@@ -38,6 +38,10 @@ email: steven.lang.mz@gmail.com
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
 # contact_links:
+  # - icon: envelope
+  #   icon_pack: fas
+  #   name: EMail me
+  #   link: 'mailto:steven.lang.mz@gmail.com'
   # - icon: twitter
   #   icon_pack: fab
   #   name: DM Me
