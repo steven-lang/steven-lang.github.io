@@ -20,7 +20,7 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: steven.lang.mz@gmail.com
+email: 'steven.lang@tu-darmstadt.de'
 # phone: 888 888 88 88
 # address:
 #   street: 450 Serra Mall
@@ -83,6 +83,7 @@ highlight_languages:
   - r
   - python
   - latex
+  - julia
 math: false
 diagram: false
 privacy_pack: false
