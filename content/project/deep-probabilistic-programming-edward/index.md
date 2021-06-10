@@ -2,7 +2,8 @@
 title: Edward - Deep Probabilistic Programming
 summary: Extended Machine Learning Seminar at TU Darmstadt
 tags:
-- Data Mining
+- Probabilistic Modeling
+- Programming
 date: "2020-04-25T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

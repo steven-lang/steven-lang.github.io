@@ -3,6 +3,10 @@ title: Java Matrix Algorithms Library
 summary: Java library of 2-dimensional matrix algorithms
 tags:
 - Data Mining
+- Open Source Software
+- Java
+- Algorithms
+
 date: "2018-01-02T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

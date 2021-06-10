@@ -29,8 +29,12 @@ content:
     tag: '*'
   - name: Deep Learning
     tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Probabilistic Modeling
+    tag: Probabilistic Modeling
+  - name: Computer Vision
+    tag: Computer Vision
+  - name: Open Source Software
+    tag: Open Source Software
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

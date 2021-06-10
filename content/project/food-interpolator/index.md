@@ -2,8 +2,10 @@
 title: GAN based Food Interpolation
 summary: Project for the Deep Generative Models Course at the TU Darmstadt
 tags:
+- Deep Learning
 - Deep Generative Models
 - Generative Adverserial Models
+- Computer Vision
 date: "2020-01-14T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -3,6 +3,7 @@ title: Machine Learning Based Prediction of Half-Lives of Environmental Pollutan
 summary: Bachelor Thesis
 tags:
 - Machine Learning
+- Deep Learning
 date: "2017-09-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
