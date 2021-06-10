@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms | Steven Lang</title><link>/tag/algorithms/</link><atom:link href="/tag/algorithms/index.xml" rel="self" type="application/rss+xml"/><description>Algorithms</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Dec 2017 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu1e660c1c67a167d0d71efce89dcd67c3_18860_512x512_fill_lanczos_center_2.png</url><title>Algorithms</title><link>/tag/algorithms/</link></image><item><title>Java Multi-Way Algorithms Library</title><link>/project/multiwary-algorithms-java/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>/project/multiwary-algorithms-java/</guid><description>&lt;p>Java library of multi-way algorithms.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms | Steven Lang</title><link>/tag/algorithms/</link><atom:link href="/tag/algorithms/index.xml" rel="self" type="application/rss+xml"/><description>Algorithms</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu1e660c1c67a167d0d71efce89dcd67c3_18860_512x512_fill_lanczos_center_2.png</url><title>Algorithms</title><link>/tag/algorithms/</link></image><item><title>Java Matrix Algorithms Library</title><link>/project/matrix-algorithms-java/</link><pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate><guid>/project/matrix-algorithms-java/</guid><description>&lt;p>Developed together with &lt;a href="https://www.cms.waikato.ac.nz/~fracpete/" target="_blank" rel="noopener">Peter Reutemann&lt;/a> at the University of Waikato (New Zealand)&lt;/p>
+&lt;h2 id="algorithms">Algorithms&lt;/h2>
+&lt;p>Unsupervised:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://web.archive.org/web/20160630035830/http://statmaster.sdu.dk:80/courses/ST02/module05/module.pdf" target="_blank" rel="noopener">Principal Component Analysis (PCA)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#GLSW_Algorithm" target="_blank" rel="noopener">Generalized Least Squares Weighting (GLSW)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#External_Parameter_Orthogonalization_.28EPO.29" target="_blank" rel="noopener">External Parameter Orthogonalization (EPO)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.helsinki.fi/u/ahyvarin/papers/bookfinal_ICA.pdf" target="_blank" rel="noopener">Independent Component Analysis (FastICA)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Supervised:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://web.archive.org/web/20081001154431/http://statmaster.sdu.dk:80/courses/ST02/module07/module.pdf" target="_blank" rel="noopener">Partial Least Squares (PLS1)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.statsoft.com/textbook/partial-least-squares/#SIMPLS" target="_blank" rel="noopener">Simple PLS (SIMPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.plantbreeding.wzw.tum.de/fileadmin/w00bdb/www/kraemer/icml_kernelpls.pdf" target="_blank" rel="noopener">Kernel PLS (KernelPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.r-bloggers.com/evaluation-of-orthogonal-signal-correction-for-pls-modeling-osc-pls-and-opls/" target="_blank" rel="noopener">Orthogonal Signal Correction (OPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.statsoft.com/textbook/partial-least-squares/#NIPALS" target="_blank" rel="noopener">Nonlinear Iterative PLS (NIPALS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2810828/" target="_blank" rel="noopener">Sparse PLS (SparsePLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#GLSW_Algorithm" target="_blank" rel="noopener">Y Gradient based Generalized Least Squares Weighting (YGradientGLSW)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wiki.eigenvector.com/index.php?title=Advanced_Preprocessing:_Multivariate_Filtering#External_Parameter_Orthogonalization_.28EPO.29" target="_blank" rel="noopener">Y Gradient based External Parameter Orthogonalization (YGradientEPO)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.16" target="_blank" rel="noopener">Canonical Correlation Analysis (CCA)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pubs.acs.org/doi/10.1021/acs.analchem.8b00498" target="_blank" rel="noopener">Domain Invariant PLS (DIPLS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://or.nsfc.gov.cn/bitstream/00001903-5/485833/1/1000013952154.pdf" target="_blank" rel="noopener">Variance Constrained PLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sciencedirect.com/science/article/pii/S0169743998001099" target="_blank" rel="noopener">Orthogonal Signal Correction (OSC)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&amp;hellip;&lt;/p></description></item><item><title>Java Multi-Way Algorithms Library</title><link>/project/multiwary-algorithms-java/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>/project/multiwary-algorithms-java/</guid><description>&lt;p>Java library of multi-way algorithms.&lt;/p>
 &lt;p>For the documentation, go to: &lt;a href="https://waikato-datamining.github.io/multiway-algorithms/" target="_blank" rel="noopener">waikato-datamining.github.io/multiway-algorithms&lt;/a>.&lt;/p>
 &lt;p>Developed together with &lt;a href="https://www.cms.waikato.ac.nz/~fracpete/" target="_blank" rel="noopener">Peter Reutemann&lt;/a> at the University of Waikato (New Zealand)&lt;/p>
 &lt;h3 id="implemented-algorithms">Implemented Algorithms&lt;/h3>

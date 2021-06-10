@@ -25,7 +25,30 @@ localization performance. Our experiments show that DAFNe outperforms
 all previous one-stage anchor-free models on DOTA 1.0, to the best of our
 knowledge. DAFNe improves the prediction accuracy over the previous
 best results by 4.65% mAP, setting the new state-of-the-art results by
-achieving 76.95% mAP.&lt;/p></description></item><item><title>WekaDeeplearning4j: A deep learning package for Weka based on Deeplearning4j</title><link>/publication/weka-dl4j/</link><pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/weka-dl4j/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+achieving 76.95% mAP.&lt;/p></description></item><item><title>GAN based Food Interpolation</title><link>/project/food-interpolator/</link><pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate><guid>/project/food-interpolator/</guid><description>&lt;p>Deep Generative Models Course Project at TU Darmstadt.&lt;/p>
+&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>The main goal of this project is to learn a conditional GAN that can interpolate between different types of food.
+We want to achieve fluid transitions between e.g.:&lt;/p>
+&lt;ul>
+&lt;li>Burger &amp;lt;-&amp;gt; Pizza&lt;/li>
+&lt;/ul>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;ul>
+&lt;li>Scraped from google with &lt;a href="https://github.com/hardikvasa/google-images-download" target="_blank" rel="noopener">google-images-download&lt;/a>&lt;/li>
+&lt;li>Partly from &lt;a href="http://pizzagan.csail.mit.edu/" target="_blank" rel="noopener">PizzaGAN&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>Video results can be found &lt;a href="https://www.youtube.com/watch?v=LndGGbR4uxY&amp;amp;list=PLVCWvLHvDaenJrE2N-Akwo7-1kGN5vd5W" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h3 id="progressive-growing-video">Progressive Growing (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/V7n1M14jKPM" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/V7n1M14jKPM/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="pizza-to-pizza-video">Pizza to Pizza (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/MSPZ56zy-OU" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/MSPZ56zy-OU/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="burger-to-burger-video">Burger to Burger (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/LndGGbR4uxY" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/LndGGbR4uxY/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h3 id="random-latent-space-video">Random Latent Space (Video)&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/n0ucsR-ko60" target="_blank" rel="noopener">&lt;img src="https://img.youtube.com/vi/n0ucsR-ko60/hqdefault.jpg" width="50%">&lt;/a>&lt;/p>
+&lt;h2 id="code-base">Code Base&lt;/h2>
+&lt;p>The code is based on a &lt;a href="https://github.com/jalola/improved-wgan-pytorch" target="_blank" rel="noopener">PyTorch implementation&lt;/a> of &lt;a href="https://arxiv.org/abs/1704.00028" target="_blank" rel="noopener">Improved Training of Wasserstein GAN&lt;/a> and a &lt;a href="https://github.com/jeromerony/Progressive_Growing_of_GANs-PyTorch" target="_blank" rel="noopener">PyTorch implementation of Progressive Growing of GANs&lt;/a>&lt;/p></description></item><item><title>WekaDeeplearning4j: A deep learning package for Weka based on Deeplearning4j</title><link>/publication/weka-dl4j/</link><pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate><guid>/publication/weka-dl4j/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 &amp;ndash;&amp;gt;&lt;/p>
 &lt;!-- Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software. -->
@@ -43,4 +66,7 @@ achieving 76.95% mAP.&lt;/p></description></item><item><title>WekaDeeplearning4j
 -->
 &lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Unsupervised Monocular Depth Estimation using Atrous Convolutions</title><link>/project/monodepth/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>/project/monodepth/</guid><description>&lt;h3 id="abstract">Abstract&lt;/h3>
 &lt;p>Monocular depth estimation is concerned with computing a dense depth map from a single image, but faces difficulties especially at object boundaries. Atrous convolutions have been successfully employed to this end in the task of semantic segmentation. In this paper we investigate, whether it is also possible to apply atrous convolutions in unsupervised monocular depth estimation. Specifically, we place an Atrous Spatial Pyramid Pooling block in a convolutional neural network between the encoder and decoder. This block allows for computing feature maps at different spatial scales on top of the encoder output. Our experiments show that atrous convolutions in the proposed setup do not improve depth estimation performance. Furthermore, the necessity of a lower output stride after the encoder, such that an increased receptive field size is even applicable, harms runtime and increases memory consumption. Finally, we show that it is possible to reduce the number of channels after the encoder, which reduces the parameter count without impairing predictions.&lt;/p>
-&lt;p>Project on &lt;em>Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em> in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p></description></item></channel></rss>
+&lt;p>Project on &lt;em>Unsupervised Monocular Depth Estimation Using Atrous Convolutions&lt;/em> in the Practical Course for Deep Learning in Computer Vision at TU Darmstadt.&lt;/p></description></item><item><title>Machine Learning Based Prediction of Half-Lives of Environmental Pollutants</title><link>/project/bachelor-thesis/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>/project/bachelor-thesis/</guid><description>&lt;p>Bachelor Thesis at the JGU Mainz in the Research Group Data-Mining, supervised by &lt;a href="https://www.datamining.informatik.uni-mainz.de/stefan-kramer/" target="_blank" rel="noopener">Prof. Dr. Stefan Kramer&lt;/a> and &lt;a href="https://unidirectory.auckland.ac.nz/people/profile/j-wicker" target="_blank" rel="noopener">Dr. Joerg Wicker&lt;/a>.&lt;/p>
+&lt;h3 id="abstract">Abstract&lt;/h3>
+&lt;p>Estimating degradation times of molecules, that possibly end up in the environment, is an important aspect for a wide range of industries. They have to take into account regulations that set a legal limit on half-lives of potential harmful molecules used in e.g. drugs or pesticides. This thesis addresses this by building machine learning models for the prediction of environmental pollutant&amp;rsquo;s half-lives. The recently released Eawag-Soil dataset of compounds and environmental conditions is used to explore possible influences on the molecule&amp;rsquo;s persistence. Moreover, a novel neural network architecture is proposed that takes advantage of the bi-relational data scheme.&lt;/p>
+&lt;p>The results indicate that the dataset does either not have enough environmental variables or not enough combinations of compounds with degradation scenarios to explore the influences of the environmental conditions on the half-life times.&lt;/p></description></item></channel></rss>
