@@ -17,7 +17,7 @@ image:
 
 url_pdf: "pdf/master-thesis/thesis.pdf" 
 # url_code: TODO
-# url_slides: "pdf/bachelor-thesis/defense.pdf"
+url_slides: "pdf/master-thesis/pres.pdf"
 ---
 
 Master Thesis at the TU Darmstadt in the AIML Lab supervised by [Prof. Kristian Kersting](https://ml-research.github.io/people/kkersting/index.html) and [Fabrizio Ventola](https://www.ml.informatik.tu-darmstadt.de/people/fventola/).
