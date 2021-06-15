@@ -44,7 +44,8 @@ links:
    url: https://icml.cc/media/Slides/icml/2020/virtual(no-parent)-15-19-00UTC-6418-einsum_networks.pdf
  - name: Video
    url: https://slideslive.com/38928148
-url_pdf: http://proceedings.mlr.press/v119/peharz20a/peharz20a.pdf
+ - name: PDF
+   url: http://proceedings.mlr.press/v119/peharz20a/peharz20a.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
