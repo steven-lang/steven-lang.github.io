@@ -56,7 +56,7 @@ social:
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:steven.lang@tu-darmstadt.de'
+  link: 'mailto:steven.lang@cs.tu-darmstadt.de'
 # - icon: linkedin
 #   icon_pack: fab
 #   link: https://www.linkedin.com/
@@ -69,7 +69,7 @@ social:
 #   link: pdf/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "steven.lang@tu-darmstadt.de"
+email: "steven.lang@cs.tu-darmstadt.de"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
