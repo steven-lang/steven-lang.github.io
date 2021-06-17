@@ -11,7 +11,7 @@ superuser: true
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Artificial Intelligence and Machine Learning Lab, TU Darmstadt
-  url: https://ml-research.github.io/
+  url: https://www.aiml.informatik.tu-darmstadt.de/#people
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My interests include tractable probabilistic models, computer vision, and programming.
