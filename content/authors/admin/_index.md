@@ -27,6 +27,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: Ph.D. student at the Artificial Intelligence and Machine Learning Lab, TU Darmstadt
+    institution: Technical University of Darmstadt
+    year: since 2021
   - course: M.Sc. in Visual Computing
     institution: Technical University of Darmstadt
     year: 2018 - 2021
@@ -77,5 +80,4 @@ highlight_name: false
 
 I’m a PhD student at the  Artificial Intelligence and Machine Learning Lab, TU Darmstadt.
 
-My main research interests cover a broad range of Machine Learning related topics such as deep models, tractable probabilistic models, deep generative models and their applications in computer vision.
-
+My main research interests cover a broad range of Machine Learning related topics such as deep models, tractable probabilistic circuits and their applications in computer vision. In specific, I work on bridging the gap between probabilistic circuits and deep neural networks. We want to push the limits of Sum-Product Networks and aim to combine their strengths with the modeling capacity of neural networks.
