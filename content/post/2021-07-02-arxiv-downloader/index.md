@@ -15,7 +15,7 @@ draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
+image: 
   caption: ""
   focal_point: ""
   preview_only: false
@@ -50,7 +50,7 @@ Download finished! Result saved at:
 /home/steven/papers/generative-models/2107.00630v1.Variational_Diffusion_Models.pdf
 ```
 
-This merges the sequence of opening an arXiv link, manually downloading the PDF, renaming this PDF according to the paper title, and moving the file to the final location, into a single command. Although this might only save me about half a minute for every paper, I deeply felt the need to automate these steps. If you're a computer scientist or programmer, I hope you can relate; if not then just call me crazy :-)
+This merges the sequence of opening an arXiv link, manually downloading the PDF, renaming this PDF according to the paper title, and moving the file to the final location, into a single command. Although this might only save me about half a minute for every paper, I deeply felt the need to automate these steps. If you're a computer scientist or programmer, I hope you can relate; if not then just call me crazy :-).
 
 You can check out all available arguments with `arxiv-downloader -h`
 
@@ -71,4 +71,4 @@ optional arguments:
 ```
 
 
-The source code is available at [steven-lang/arxiv-downloader](https://github.com/steven-lang/arxiv-downloader). Feel free to contribute, leave feedback and report issues.
+The source code is available at [steven-lang/arxiv-downloader](https://github.com/steven-lang/arxiv-downloader). Feel free to contribute, leave feedback, and report issues.
