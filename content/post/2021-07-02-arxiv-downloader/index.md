@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-# The hassle of Downloading arXiv Papers
+# The Hassle of Downloading arXiv Papers
 
 A few months ago I had acquired a tablet to read and annotate research papers wherever I want, stopping the waste of printing these in paper form and then keeping the annotated printed versions somewhere in my desk. This led me to a setup in which I store all research papers in some directory structure at `~/papers/` and have this directory be in sync with a synchronization service; currently OneDrive, which has an excellent third-party [Linux client](https://github.com/abraunegg/onedrive). 
 
