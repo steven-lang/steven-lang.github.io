@@ -10,7 +10,7 @@ Starting download of article: &amp;quot;Variational Diffusion Models&amp;quot; (
 Download finished! Result saved at:
 /home/steven/papers/generative-models/2107.00630v1.Variational_Diffusion_Models.pdf
 &lt;/code>&lt;/pre>
-&lt;p>This merges the sequence of opening an arXiv link, manually downloading the PDF, renaming this PDF according to the paper title, and moving the file to the final location, into a single command. Although this might only save me about half a minute for every paper, I deeply felt the need to automate these steps. If you&amp;rsquo;re a computer scientist or programmer, I hope you can relate; if not then just call me crazy :-)&lt;/p>
+&lt;p>This merges the sequence of opening an arXiv link, manually downloading the PDF, renaming this PDF according to the paper title, and moving the file to the final location, into a single command. Although this might only save me about half a minute for every paper, I deeply felt the need to automate these steps. If you&amp;rsquo;re a computer scientist or programmer, I hope you can relate; if not then just call me crazy :-).&lt;/p>
 &lt;p>You can check out all available arguments with &lt;code>arxiv-downloader -h&lt;/code>&lt;/p>
 &lt;pre>&lt;code class="language-sh">$ arxiv-downloader -h
 usage: arxiv-downloader [-h] [--url URL] [--id ID] [--directory DIRECTORY] [--source]
@@ -24,4 +24,4 @@ optional arguments:
 Output directory.
 --source, -s Whether to download the source tar file.
 &lt;/code>&lt;/pre>
-&lt;p>The source code is available at &lt;a href="https://github.com/steven-lang/arxiv-downloader" target="_blank" rel="noopener">steven-lang/arxiv-downloader&lt;/a>. Feel free to contribute, leave feedback and report issues.&lt;/p></description></item></channel></rss>
+&lt;p>The source code is available at &lt;a href="https://github.com/steven-lang/arxiv-downloader" target="_blank" rel="noopener">steven-lang/arxiv-downloader&lt;/a>. Feel free to contribute, leave feedback, and report issues.&lt;/p></description></item></channel></rss>
